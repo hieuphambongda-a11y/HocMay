@@ -13,3 +13,4 @@ model = LinearRegression()
 model.fit(x_train,y_train)
 predictions = model.predict(x_test)
 
+print("Đã training xong mô hình dự đoán giá nhà theo hồi quy tuyến tính.")
